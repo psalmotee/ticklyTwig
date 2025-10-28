@@ -1,7 +1,3 @@
-{# 
-    This template is the Twig conversion of src/views/LandingPage/Hero.vue.
-    It contains the main headline, description, CTAs, and feature summary.
-#}
 <section class="relative overflow-hidden bg-background py-24 sm:py-32">
     
     <!-- Decorative circles (matching Vue component) -->

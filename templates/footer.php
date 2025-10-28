@@ -1,7 +1,3 @@
-{# 
-    This template is the Twig conversion of src/views/LandingPage/Footer.vue.
-    It provides the persistent footer element for the application.
-#}
 <footer class="border-t border-border bg-secondary/30 py-12">
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div class="flex flex-col sm:flex-row items-center justify-between gap-4">

@@ -1,7 +1,3 @@
-{# 
-    This template is the Twig conversion of src/views/LandingPage/Features.vue.
-    It lists the core benefits of the application.
-#}
 <section id="features" class="bg-secondary/30 py-20 sm:py-32">
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         

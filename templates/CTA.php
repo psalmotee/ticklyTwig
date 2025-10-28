@@ -1,7 +1,3 @@
-{# 
-    This template is the Twig conversion of src/views/LandingPage/CTA.vue.
-    It provides a final prompt for users to sign up.
-#}
 <section class="bg-background py-20 sm:py-32 border-t border-border">
     <div class="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 text-center">
         
