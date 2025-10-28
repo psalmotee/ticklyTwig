@@ -1,0 +1,33 @@
+{
+  "name": "your-name/tickly-twig",
+  "description": "Slim 4 and Twig implementation for the Tickly ticket management app.",
+  "type": "project",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=7.4",
+    "slim/slim": "^4.12",
+    "slim/psr7": "^1.6",
+    "slim/http": "^1.3",
+    "nyholm/psr7": "^1.8",
+    "nyholm/psr7-server": "^1.0",
+    "guzzlehttp/psr7": "^2.6",
+    "php-di/php-di": "^6.4",
+    "twig/twig": "^3.8",
+    "slim/twig-view": "^3.3",
+    "vlucas/phpdotenv": "^5.6"
+  },
+  "config": {
+    "allow-plugins": {
+      "php-http/discovery": true
+    }
+  },
+  "scripts": {
+    "start": "php -S 0.0.0.0:8080 -t public",
+    "test": "echo 'Error: no test specified' && exit 1"
+  }
+}
